@@ -325,10 +325,13 @@ def schreibe_dashboard(notices: list[dict], demo: bool):
     daten_js = json.dumps(notices, ensure_ascii=False)
     meta_js = json.dumps(meta, ensure_ascii=False)
 
+    # WICHTIG: repl als Funktion (nicht als String) übergeben, sonst interpretiert
+    # re.sub() Backslash-Sequenzen wie \n innerhalb des JSON als Steuerzeichen und
+    # zerstoert damit mehrzeilige Titel/Adressen im eingebetteten JSON.
     html = re.sub(r"/\*META_START\*/.*?/\*META_END\*/",
-                  f"/*META_START*/{meta_js}/*META_END*/", html, flags=re.S)
+                  lambda _m: f"/*META_START*/{meta_js}/*META_END*/", html, flags=re.S)
     html = re.sub(r"/\*DATA_START\*/.*?/\*DATA_END\*/",
-                  f"/*DATA_START*/{daten_js}/*DATA_END*/", html, flags=re.S)
+                  lambda _m: f"/*DATA_START*/{daten_js}/*DATA_END*/", html, flags=re.S)
 
     AUSGABE_HTML.write_text(html, encoding="utf-8")
     AUSGABE_JSON.write_text(json.dumps(notices, ensure_ascii=False, indent=2),
