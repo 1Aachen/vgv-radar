@@ -1,0 +1,35 @@
+name: VgV-Radar aktualisieren
+
+on:
+  schedule:
+    - cron: "15 5 * * *"    # täglich 05:15 UTC = 07:15 deutscher Sommerzeit
+  workflow_dispatch:         # erlaubt manuellen Start per Knopfdruck
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Bekanntmachungen abrufen und Dashboard bauen
+        run: python3 vgv_radar.py --tage 21
+
+      - name: Dashboard als Startseite bereitstellen
+        run: cp dashboard.html index.html
+
+      - name: Änderungen committen und pushen
+        run: |
+          git config user.name "vgv-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add index.html dashboard.html vgv_daten.json
+          git diff --cached --quiet || git commit -m "Datenstand $(date +%d.%m.%Y)"
+          git push
