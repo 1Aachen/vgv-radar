@@ -1,70 +1,5 @@
 [
   {
-    "id": "ocds-mnwr74-6c818bcb-a7c6-4735-bbe7-70eb33bd10e6",
-    "titel": "Zentralisierung der Aus- und Fortbildung der Thüringer Landesverwaltung am Standort Gotha - Bildungszentrum Gotha - 2. Bauabschnitt\nNeubau eines Lehrsaalgebäudes auf dem jetzigen Standort der Sporthalle - Objektplanung Freianlagen",
-    "auftraggeber": "Thüringer Landesamt für Bau und Verkehr (TLBV)",
-    "ort": "Erfurt",
-    "bundesland": "Thüringen",
-    "cpv": "71222000",
-    "cpv_label": "Objektplanung Gebäude",
-    "verfahren": "Negotiated with prior publication of a call for competition / competitive with negotiation",
-    "frist": "",
-    "veroeffentlicht": "2026-06-21",
-    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=796bbe64-34da-4e8b-b29d-214e338f9f3c"
-  },
-  {
-    "id": "ocds-mnwr74-fcdae081-dcdb-4873-b3a0-3992a68957b8",
-    "titel": "VA und IBW mit TWP",
-    "auftraggeber": "Staatliches Bauamt Schweinfurt",
-    "ort": "Schweinfurt",
-    "bundesland": "Bayern",
-    "cpv": "71300000",
-    "cpv_label": "Ingenieurleistungen",
-    "verfahren": "Open",
-    "frist": "",
-    "veroeffentlicht": "2026-06-21",
-    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=607b5280-78bb-4a48-826d-9039cb865e0e"
-  },
-  {
-    "id": "ocds-mnwr74-454409ca-1c00-4a6f-83cc-cfcb4d8cd516",
-    "titel": "Objektplanung Gebaeude",
-    "auftraggeber": "Staatl. Bauamt München 1",
-    "ort": "München",
-    "bundesland": "Bayern",
-    "cpv": "71200000",
-    "cpv_label": "Architekturleistungen",
-    "verfahren": "Open",
-    "frist": "",
-    "veroeffentlicht": "2026-06-21",
-    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=60777ef5-1907-4e4e-853c-ee6a28bc944a"
-  },
-  {
-    "id": "ocds-mnwr74-e4ecf80e-2f5c-4eab-9ac8-334b65bc942c",
-    "titel": "Neubau KAT-Schutzstützpunkt, Planungsleistungen technische Anlagen HLS (§53-56 HOAI)",
-    "auftraggeber": "Landratsamt Kyffhäuserkreis",
-    "ort": "Sondershausen",
-    "bundesland": "Thüringen",
-    "cpv": "71321000",
-    "cpv_label": "Tragwerksplanung",
-    "verfahren": "Open",
-    "frist": "",
-    "veroeffentlicht": "2026-06-19",
-    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=e0cb081a-00e4-477a-b158-a9691f395546"
-  },
-  {
-    "id": "ocds-mnwr74-5a943584-69cd-47f4-8044-aa6cc3fd1898",
-    "titel": "Neubau KAT-Schutzstützpunkt, Planungsleistungen technische Anlagen ELT (§53-56 HOAI)",
-    "auftraggeber": "Landratsamt Kyffhäuserkreis",
-    "ort": "Sondershausen",
-    "bundesland": "Thüringen",
-    "cpv": "71321000",
-    "cpv_label": "Tragwerksplanung",
-    "verfahren": "Open",
-    "frist": "",
-    "veroeffentlicht": "2026-06-19",
-    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=543064a9-c91e-46f3-8532-2678859fe403"
-  },
-  {
     "id": "ocds-mnwr74-a42e065e-033b-45f0-a008-2d70f3d4d55f",
     "titel": "Technisches Monitoring und Inbetriebnahmemanagement GNUE LAV Halle",
     "auftraggeber": "Amt für Immobilien- und Baumanagement Halle (Saale) (AIB Halle)",
@@ -12192,5 +12127,44 @@
     "frist": "",
     "veroeffentlicht": "2026-07-09",
     "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=40d2313b-5172-478f-8da2-427eb709978d"
+  },
+  {
+    "id": "ocds-mnwr74-ba98973a-518a-4111-9e2a-4e4bbd0335c6",
+    "titel": "Areal A - Brandschutz",
+    "auftraggeber": "Zweckverband Bodensee-Wasserversorgung",
+    "ort": "Stuttgart",
+    "bundesland": "Baden-Württemberg",
+    "cpv": "71300000",
+    "cpv_label": "Ingenieurleistungen",
+    "verfahren": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+    "frist": "",
+    "veroeffentlicht": "2026-07-12",
+    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=ba98973a-518a-4111-9e2a-4e4bbd0335c6"
+  },
+  {
+    "id": "ocds-mnwr74-8df27525-b5db-40bf-ad3b-f6456c648751",
+    "titel": "COSMOS - Instandhaltung von verfahrenstechnischen Systemen an DC-Netzanlagen der TenneT TSO GmbH",
+    "auftraggeber": "TenneT TSO GmbH",
+    "ort": "Bayreuth",
+    "bundesland": "Bayern",
+    "cpv": "71600000",
+    "cpv_label": "Technische Prüfung/Analyse",
+    "verfahren": "Negotiated with prior publication of a call for competition / competitive with negotiation",
+    "frist": "",
+    "veroeffentlicht": "2026-07-13",
+    "url": "https://oeffentlichevergabe.de/ui/de/search/details?noticeId=443fac19-1ce8-492b-aee8-74cea489fc0b"
+  },
+  {
+    "id": "ocds-mnwr74-25546236",
+    "titel": "Untersuchung von 13 ehem. Hausmuelldeponien der Verwaltungsgemeinschaften Ostheim und Mellrichstadt durch das WWA Bad Kissingen im Jahr 2026",
+    "auftraggeber": "Wasserwirtschaftsamt Bad Kissingen",
+    "ort": "97688 Bad Kissingen",
+    "bundesland": "Bayern",
+    "cpv": "71332000-4",
+    "cpv_label": "TGA/Fachingenieur",
+    "verfahren": "Public announcement",
+    "frist": "",
+    "veroeffentlicht": "2026-07-12",
+    "url": "https://oeffentlichevergabe.de/ui/de/search"
   }
 ]
